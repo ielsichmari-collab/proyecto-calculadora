@@ -1,7 +1,6 @@
-
-
 "----------------------------------------------"
 "Calculadora mejorada con funciones y manejo de excepciones"
+    
 # --- Funciones de Operacion ---
 
 def sumar(a, b):
@@ -22,6 +21,7 @@ def dividir(a, b):
 # --- Cuerpo Principal del Programa ---
 
 def calculadora():
+    print("\n--- CALCULADORA PYTHON ---")
     try:
         # Intentamos convertir las entradas a float
         num1 = float(input("Introduce el primer numero: "))
@@ -53,4 +53,5 @@ def calculadora():
         print(f"Ocurrio un error inesperado: {e}")
 
 # Ejecutamos la calculadora
+if __name__ == '__main__': calculadora()
 calculadora()
